@@ -1,4 +1,4 @@
-﻿def call(Map config = [:]) {
+def call(Map config = [:]) {
     def imageRepo = config.imageRepo ?: "maielshazly/ivolve-app"
     def credentialsId = config.credentialsId ?: "dockerhub-creds"
     def imageTag = "${imageRepo}:${env.BUILD_NUMBER}"

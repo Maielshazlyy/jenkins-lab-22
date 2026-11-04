@@ -1,4 +1,4 @@
-﻿def call(Map config = [:]) {
+def call(Map config = [:]) {
     def imageRepo = config.imageRepo ?: "maielshazly/ivolve-app"
     def namespace = config.namespace ?: "ivolve"
     def deploymentName = config.deploymentName ?: "ivolveapp"
