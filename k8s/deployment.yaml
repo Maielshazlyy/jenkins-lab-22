@@ -60,7 +60,7 @@ spec:
                   key: DB_PASSWORD
       containers:
         - name: ivolve-app
-          image: maielshazly/ivolve-app:8
+          image: maielshazly/ivolve-app:9
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
